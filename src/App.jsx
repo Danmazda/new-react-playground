@@ -1,8 +1,12 @@
+import { Wrapper } from './styles/style';
+
 function App() {
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+    <Wrapper background="yellow">
+      <div>
+        <h1>Hello</h1>
+      </div>
+    </Wrapper>
   );
 }
 
